@@ -218,23 +218,4 @@ function register() {
         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
       }
     });
-    $.ajax({
-       type:'POST',
-       url:formAction,
-       data : formValues,
-       success:function(data){
-          $("div.webike_popup").removeClass("active");
-          location.reload();
-       },
-       error: function(xhr, status, error) {
-          var responseText = xhr.responseText;
-          var obj = JSON.parse(responseText);
-          if(obj['email'][0]=="The email has already been taken.") {
-            $('#register_email').focus();
-            $('#register_email_error').html('The email has already been taken.');
-            consle.log('done');
-            alert('check');
-          }
-       }
-    });
 }
