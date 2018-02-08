@@ -1,0 +1,222 @@
+.shipping_header {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding: 30px 30px 10px 30px;
+}
+h1.section_header {
+	margin: 0;
+	text-align: center;
+	font-size: 28px;
+	line-height: 30px;
+	color: #151515;
+	padding-bottom: 20px;
+	font-weight: 900;
+	font-family: 'Oswald', sans-serif;
+	width: 100%;
+	float: left;
+}
+h1.section_header span {
+	padding: 0 15px 15px;
+	border-bottom: 2px solid #3f3f3f;
+	display: block;
+	width: 300px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+ul.shipping_order {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+ul.shipping_order li.track_shipping.active {
+	color: #171717;
+}
+ul.shipping_order li.track_shipping {
+	width: auto;
+	display: inline-block;
+	margin: auto;
+	padding: 0 20px;
+	color: #6a6a6a;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	position: relative;
+}
+ul.shipping_order li.track_shipping.active:before {
+	position: relative;
+}
+ul.shipping_order li.track_shipping:before {
+	position: absolute;
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #ed1c24;
+	top: 8px;
+	left: 0px;
+}
+.breadcrumb {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 20px 80px 5px 80px;
+	text-transform: uppercase;
+	color: #151515;
+	font-weight: 700;
+	font-size: 18px;
+}
+.breadcrumb a {
+	color: #151515;
+}
+.breadcrumb span {
+	margin-right: 12px;
+	float: left;
+	margin-top: 3px;
+	font-size: 19px;
+}
+
+.order_details {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 0px 80px;
+}
+.successful_order {
+	background: #fff;
+	width: 100%;
+	padding: 10px 0;
+	position: relative;
+	float: left;
+	margin-bottom: 45px;
+}
+.successful_order .user_name {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	color: #151515;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.successful_order .user_name > span {
+	font-size: 40px;
+	color: #151515;
+	font-weight: 700;
+	margin-bottom: 10px;
+	line-height: 54px;
+}
+.successful_order .success_msg {
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #686868;
+	text-align: center;
+	margin: 10px 0;
+	font-size: 17px;
+	line-height: 26px;
+	clear: both;
+}
+.successful_order .details {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 20px 40px 0 40px;
+}
+.details .order_header {
+	width: 100%;
+}
+.details .order_header .title {
+	position: relative;
+	float: left;
+	width: auto;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+}
+.details .order_header .total_amount {
+	position: relative;
+	float: right;
+	color: #E95B0B;
+	font-weight: 700;
+	font-size: 20px;
+}
+.details .orders {
+	position: relative;
+	float: left;
+	width: 100%;
+	clear: both;
+	margin: 20px 0 0 0;
+}
+.details .orders .purchase_list {
+	position: relative;
+	float: left;
+	width: 32%;
+	margin: 0 1% 25px 1%;
+}
+.details .orders .purchase_list:nth-child(3n) {
+	margin: 0 0 25px 0;
+}
+.details .orders .purchase_list .purchased_image {
+	width: 30%;
+	float: left;
+	position: relative
+}
+.details .orders .purchase_list .buyer_details {
+	position: relative;
+	float: left;
+	width: 70%;
+	padding: 10px 0 10px 10px;
+}
+.details .orders .purchase_list .buyer_details .name {
+	font-weight: 700;
+	color: #151515;
+	font-size: 17px;
+	text-align: left;
+}
+.details .orders .purchase_list .buyer_details .name span {
+	float: right;
+	font-weight: 400;
+	font-size: 14px;
+	color: #ED1C24;
+}
+.details .orders .purchase_list .buyer_details .weight {
+	position: relative;
+	float: left;
+	width: 100%;
+	color: #686868;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 700;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+.details .orders .purchase_list .buyer_details .weight {
+	font-weight: 400;
+}
+.shipping_address {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 0 40px 20px 40px;
+}
+.shipping_address .title {
+	position: relative;
+	float: left;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.shipping_address .address {
+	position: relative;
+	float: left;
+	width: 100%;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #686868;
+	font-size: 16px;
+	line-height: 23px;
+}
+.shipping_address .address span {
+	font-weight: 700;
+	color: #151515;
+}
+}

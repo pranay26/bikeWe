@@ -1,0 +1,284 @@
+.wishlist_wrapper {
+	float: left;
+	width: 100%;
+	padding: 30px 50px;
+	text-align: center;
+}
+.header_quick_access_menu {
+	display: none;
+}
+.wishlist_item {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 20px 0 15px 0;
+}
+.wishlist_item .form_checkbox {
+	width: 5%;
+	margin-right: 1%;
+	padding-top: 55px;
+}
+.movetocart_button_wrapper {
+	float: right;
+	width: 20%;
+	text-align: center;
+	padding-top: 35px;
+}
+.wishlist_wrapper .item_price {
+	float: left;
+	width: 15%;
+	padding-right: 30px;
+	text-align: right;
+	font-size: 25px;
+	padding-top: 45px;
+	font-weight: 700;
+}
+.movetocart_button {
+	width: 200px;
+	float: left;
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+.movetocart_button:before {
+	line-height: 2;
+}
+#wishlist_select_items {
+	width: 50%;
+	float: left;
+	margin-top: 5px;
+}
+.wishlist_button_wrapper {
+	float: left;
+	width: 50%;
+	text-align: right;
+}
+#wishlist_bottom_wrapper {
+	padding: 25px 50px;
+}
+.wishlist_button_wrapper .button{
+	width: 200px;
+	float: right;
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+button#deleteallproducts_button {
+	background-color: transparent;
+	background: none;
+	color: #151515;
+	margin-right: 30px;
+	border: 2px solid #151515;
+	padding: 18px;
+}
+.wishlist_button_wrapper .button:before {
+	line-height: 1.8;
+}
+.wishlist_wrapper .form_checkbox .checkbox-custom + .checkbox-custom-label:before {
+	width: 45px;
+	height: 45px;
+}
+.wishlist_wrapper .form_checkbox input[type='checkbox'] + label:after {
+	bottom: 3px;
+	left: 18px;
+	width: 10px;
+	height: 20px;
+}
+#wishlist_bottom_wrapper .form_checkbox .checkbox-custom-label {
+	font-size: 18px;
+}
+#wishlist_bottom_wrapper .form_checkbox .checkbox-custom + .checkbox-custom-label:before ,
+.wishlist_wrapper .form_checkbox .checkbox-custom + .checkbox-custom-label:before{
+	background: transparent;
+	border: 2px solid #e95b0b;
+}
+#wishlist_bottom_wrapper .form_checkbox input[type='checkbox'] + label:after ,
+.wishlist_wrapper .form_checkbox input[type='checkbox'] + label:after{
+	border-right: 2px solid #e95b0b;
+	border-bottom: 2px solid #e95b0b;
+}
+#wishlist_bottom_wrapper .form_checkbox .checkbox-custom:checked + .checkbox-custom-label:before ,
+.wishlist_wrapper .form_checkbox .checkbox-custom:checked + .checkbox-custom-label:before{
+	background-color: #e95b0b;
+	border: 2px solid #e95b0b;
+}
+#wishlist_bottom_wrapper .form_checkbox input[type='checkbox']:checked + label:after ,
+.wishlist_wrapper .form_checkbox input[type='checkbox']:checked + label:after{
+	border-right: 2px solid #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
+}
+.wishlist_button_wrapper #deleteallproducts_button:before {
+	line-height: 52px;
+	font-size: 22px;
+}
+@media only screen and (max-width: 1200px){
+	.movetocart_button {
+		width: auto;
+	}
+}
+@media only screen and (max-width:1100px){
+	.wishlist_wrapper .item_price {
+		padding-right: 25px;
+		font-size: 20px;
+		padding-top: 50px;
+	}
+	.wishlist_wrapper {
+		padding: 30px;
+	}
+	.item_name_details {
+		width: 42%;
+		padding-right: 10px;
+	}
+	.movetocart_button {
+		font-size: 15px;
+		float: right;
+		margin-right: 15px;
+	}
+	#wishlist_select_items {
+		width: 25%;
+		float: left;
+	}
+	.wishlist_button_wrapper {
+		float: left;
+		width: 75%;
+		text-align: right;
+	}
+}
+@media only screen and (max-width: 900px){
+	.wishlist_wrapper {
+		padding: 20px;
+	}
+	.wishlist_wrapper .item_price {
+		font-size: 17px;
+	}
+	.movetocart_button {
+		margin-right: 0;
+		width: 100%;
+	}
+	.item_details_card {
+		position: relative;
+	}
+	.wishlist_item {
+		margin: 15px 0 10px 0;
+	}
+	.wishlist_item .form_checkbox {
+		width: 7%;
+		margin-right: 1%;
+	}
+	#wishlist_bottom_wrapper {
+		padding: 12px;
+	}
+}
+@media only screen and (max-width: 760px){
+	.movetocart_button {
+		margin-right: 0;
+		padding: 15px;
+		font-size: 14px;
+	}
+	.movetocart_button_wrapper {
+		padding-top: 42px;
+	}
+	.wishlist_item .item_details_card {
+		width: 92%;
+		margin: 0;
+	}
+	.wishlist_item .form_checkbox {
+		padding-top: 50px;
+	}
+	.wishlist_item .removecart_item {
+		top: 10px;
+	}
+	.wishlist_item {
+		margin: 20px 0 15px 0;
+	}
+	.wishlist_item .form_checkbox {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		width: 35px;
+		margin-top: 0;
+		float: left;
+		padding-top: 0;
+	}
+	.wishlist_item .form_checkbox .checkbox-custom + .checkbox-custom-label:before,
+	#wishlist_select_items .form_checkbox .checkbox-custom + .checkbox-custom-label:before {
+		width: 35px;
+		height: 35px;
+	}
+	.wishlist_item .form_checkbox input[type='checkbox'] + label:after,
+	#wishlist_select_items .form_checkbox input[type='checkbox'] + label:after {
+		bottom: 3px;
+		left: 13px;
+		width: 9px;
+		height: 17px;
+	}
+	.wishlist_item .item_details_card {
+		padding: 10px 10px 5px 10px;
+		width: calc(100% - 45px);
+		margin-top: 0;
+		left: 45px;
+		position: relative;
+	}
+	.wishlist_item .item_name_details {
+		width: 75%;
+		padding-right: 0px;
+	}
+	.wishlist_wrapper .item_price {
+		font-size: 16px;
+		padding-top: 5px;
+		color: #ed1c24;
+	}
+	.movetocart_button_wrapper {
+		padding-top: 0;
+		width: 100%;
+		margin-top: 15px;
+		float: left;
+	}
+	.movetocart_button {
+		margin-right: 0;
+		padding: 15px;
+		font-size: 14px;
+		background-color: transparent;
+		background-image: none;
+		color: #e95b0b;
+		border-top: 1px solid #b3b3;
+	}
+	.movetocart_button:before {
+		display: none;
+	}
+	.movetocart_button:hover span {
+		-webkit-transform: translateY(0%); 
+		-moz-transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		transform: translateY(0%); 
+	}
+	.wishlist_item .item_price span {
+		font-size: 18px;
+		margin-right: 3px;
+	}
+	#wishlist_select_items {
+		width: 100%;
+		float: left;
+		margin-bottom: 0;
+	}
+	.wishlist_button_wrapper {
+		width: 100%;
+		text-align: center;
+	}
+	.wishlist_button_wrapper .button {
+		float: right;
+		width: 48%;
+		display: inline-block;
+		font-size: 17px;
+		padding: 17px 5px;
+	}
+	button#deleteallproducts_button {
+		padding: 15px 5px;
+		margin-right: 2%;
+		float: left;
+	}
+	.wishlist_button_wrapper #deleteallproducts_button:before {
+		line-height: 46px;
+	}
+}

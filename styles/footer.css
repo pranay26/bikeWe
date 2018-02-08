@@ -1,0 +1,224 @@
+.webike_footer {
+	width: 100%;
+	background-color: #151515;
+	padding: 30px 50px;
+	float: left;
+}
+.footer_logo_column {
+	float: left;
+	width: 20%;
+}
+.footer_menu_column {
+	float: left;
+	width: 80%;
+}
+ul.footer_nav_lists {
+	width: 100%;
+	text-align: center;
+}
+ul.footer_nav_lists li {
+	display: inline-block;
+	float: left;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding-right: 20px;
+	font-weight: 400;
+}
+ul.footer_nav_lists li a{
+	color: #FFFFFF;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+ul.footer_nav_lists li a:hover{
+	color: #e9570d;
+}
+.subscribe_newsletter_column {
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+}
+form.subscribe_form {
+	width: 60%;
+	float: left;
+}
+.footer_social_link {
+	width: 40%;
+	float: left;
+}
+
+label.subscribe_label {
+	float: left;
+	width: 100%;
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-bottom: 6px;
+}
+input.subscribe_input {
+	background-color: transparent;
+	border: 2px solid #7b7b7b;
+	width: 70%;
+	height: 50px;
+	padding: 10px;
+	color: #FFFFFF;
+	float: left;
+	border-right: none;
+	font-size: 12px;
+}
+button.subscribe_submit_button {
+	border: 2px solid #7b7b7b;
+	border-left: none;
+	font-weight: 600;
+	font-size: 16px;
+	width: 30% !important;
+	height: 50px;
+	padding: 15px;
+}
+.subscribe_submit_button:before {
+	line-height: 1.7;
+}
+
+.footer_social_link {
+	width: 40%;
+	float: left;
+	text-align: center;
+	margin-top: 23px;
+	padding-left: 20px;
+}
+.footer_social_link a {
+	background-color: #FFFFFF;
+	display: block;
+	float: left;
+	border-radius: 50px;
+	width: 60px;
+	height: 60px;
+	padding: 14px;
+	margin: 0 12px;
+}
+.footer_social_link a img {
+	width: 33px;
+	height: auto;
+}
+
+@media only screen and (max-width: 1100px){
+	ul.footer_nav_lists li {
+		margin-bottom: 12px;
+	}
+	.webike_footer {
+		padding: 20px;
+	}
+	.footer_menu_column {
+		width: 80%;
+		padding-left: 15px;
+	}
+}
+@media only screen and (max-width: 900px){
+	form.subscribe_form {
+		width: 60%;
+	}
+	.footer_logo_column {
+		width: 100%;
+	}
+	.footer_menu_column {
+		width: 100%;
+		padding-left: 0;
+	}
+	a.footer_logo img {
+		width: 100px;
+		display: block;
+		margin: 0 auto;
+	}
+	.footer_social_link {
+		width: 40%;
+		padding-left: 0;
+	}
+	.footer_social_link a {
+		display: inline-block;
+		float: none;
+		width: 50px;
+		height: 50px;
+		padding: 11px;
+	}
+	ul.footer_nav_lists li {
+		display: inline-block;
+		float: none;
+		padding: 0 10px;
+	}
+	a.footer_logo {
+		float: left;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.subscribe_newsletter_column {
+		margin-top: 20px;
+	}
+	.footer_social_link a img {
+		width: 27px;
+	}
+	label.subscribe_label{
+		text-align: center;
+	}
+
+}
+@media only screen and (max-width: 670px){
+	.subscribe_newsletter_column{
+		margin-top: 10px;
+	}
+	.footer_social_link a{
+		width: 45px;
+		height: 45px;
+	}
+	form.subscribe_form,
+	.footer_social_link {
+		width: 100%;
+	}
+	button.subscribe_submit_button {
+		width: 35% !important;
+	}
+}
+@media only screen and (max-width: 500px){
+	input.subscribe_input {
+		width: 65%;
+		font-size: 11px;
+	}
+	ul.footer_nav_lists {
+		display: none;
+	}
+	ul.footer_nav_lists li {
+		font-size: 12px;
+		margin-bottom: 10px;
+		padding: 0 10px;
+	}
+	a.footer_logo {
+		margin-bottom: 5px;
+	}
+	.footer_social_link {
+		margin-top: 15px;
+	}
+	button.subscribe_submit_button {
+		width: 35% !important;
+		font-size: 14px;
+	}
+	.webike_footer {
+		padding: 15px;
+	}
+	a.footer_logo img {
+		max-width: 120px;
+	}
+	.footer_social_link a img {
+		width: 22px;
+		display: block;
+		margin: 0 auto;
+	}
+	.footer_social_link a {
+		width: 40px;
+		height: 40px;
+		padding: 9px 0;
+		margin: 0 5px;
+	}
+	label.subscribe_label {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+}

@@ -1,0 +1,228 @@
+.webike_shipping_wrapper {
+	width: 100%;
+	float: left;
+}
+.webike_banner_wrapper {
+	width: 100%;
+	float: left;
+}
+img{
+	max-width: 100%;
+}
+.offer_wrapper {
+	width: 100%;
+	padding: 60px;
+	float: left;
+}
+.offer_sections {
+	width: 100%;
+	float: left;
+}
+.offer_grid_imgs {
+	width: 100%;
+	float: left;
+}
+.offer_image {
+	width:  65%;
+	float: left;
+	position: relative;
+}
+.offer_image img{
+	width: 100%;
+	float: left;
+	padding: 10px;
+}
+.offer_image.offer_image_small{
+	width: 35%;
+}
+.offer_buttons {
+	position: absolute;
+	width: 100%;
+	bottom: 65px;
+	text-align: center;
+	padding: 0 50px;
+}
+.offer_buttons .button{
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+}
+.shop_for_him {
+	width:50%;
+	float: left;
+}
+.offers_set {
+	width: 50%;
+	float: left;
+	padding: 10px;
+	position: relative;
+}
+.offers_set img{
+	width: 100%;
+}
+.imgage_details h2{
+	font-size: 55px;
+	font-weight: 900;
+	font-family: sans-serif;
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	margin: 0;
+	color: #a5e95c;
+}
+.imgage_details h3{
+	font-size: 72px;
+	margin: 0;
+	top: 47%;
+	right: 57px;
+	position: absolute;
+	color: #a5e95c;
+}
+.price_drop {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	font-size: 55px;
+	margin: 0;
+	color: #ff840b;
+	font-weight: 900;
+	line-height: 29px;
+}
+.price_drop sup {
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+.price_drop span{
+	line-height: 29px;
+}
+.upto h1 {
+	color: #ffffff;
+	font-size: 90px;
+	font-weight: 900;
+	margin: 0;
+	line-height: 95px;
+	padding-bottom: 20px;
+}
+.offers_upto {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	color: #daeaef;
+	border: 1px solid #fff;
+	padding: 10px;
+}
+.offers_upto h1 {
+	margin: 0;
+	float: left;
+	font-size: 65px;
+	line-height: 80px;
+	font-weight: 900;
+}
+.offers_upto span{
+	float: left;
+	line-height: 25px;
+	font-size: 20px;
+	padding-left: 10px;
+	font-weight: 900;
+
+}
+
+@media screen and (max-width:1100px){
+	.imgage_details h2{
+		font-size: 40px;
+	}
+	.price_drop{
+		font-size: 32px;
+		line-height: 15px;
+		top: 40px
+	}
+	.price_drop sup{
+		font-size: 18px;
+	}
+	.imgage_details h3{
+		font-size: 50px;
+	}
+	.upto h1{
+		font-size: 70px;
+		line-height: 70px;
+		padding-bottom: 10px;
+	}
+	.offer_buttons{
+		padding: 0;
+	}
+}
+
+@media screen and (max-width:1000px){
+	.shop_for_him{
+		width: 50%;
+		padding-bottom: 10px;
+	}
+	.offer_buttons{
+		bottom: 20px;
+	}
+	.offer_buttons .button{
+		padding: 10px;
+		width: 180px;
+	}
+	.upto h1{
+		font-size: 50px;
+	}
+	.offers_upto h1{
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.offers_upto span{
+		font-size: 18px;
+		line-height: 20px;
+	}
+}
+@media screen and (max-width:750px){
+	.offer_wrapper{
+		padding: 20px;
+	}
+	.upto h1{
+		font-size: 35px;
+		line-height: 35px;
+	}
+	.imgage_details h3{
+		font-size: 40px;
+		line-height: 40px;
+		top: 50%;
+	}
+	.imgage_details h2{
+		font-size: 35px;
+	}
+	.offer_buttons .button{
+		width: 140px;
+	}
+}
+@media screen and (max-width:600px){
+	.offer_image.offer_image_small{
+		width: 100%;
+	}
+	.offer_image{
+		width: 100%;
+	}
+	.offers_set{
+		width: 100%;
+	}
+}
+@media screen and (max-width:500px){
+	.imgage_details h2{
+		font-size: 30px;
+	}
+	.imgage_details h3{
+		font-size: 35px;
+	}
+	.shop_for_him{
+		width: 50%;
+		padding-bottom: 10px;
+	}
+}
+@media screen and (max-width:400px){
+	.offer_buttons .button{
+		width: 115px;
+	}
+}

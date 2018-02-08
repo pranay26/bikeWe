@@ -1,0 +1,106 @@
+a.jp-next:after,
+a.jp-previous:after {
+    display: none;
+}
+.holder {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 30px 0px;
+}
+.holder a {
+    border: none;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin: 2px;
+    color: #686868;
+    cursor: pointer;
+    line-height: 23px;
+    display: inline-block;
+    float: none;
+    font-size: 22px;
+}
+.holder a.jp-current {
+    color: #e95b0b;
+}
+.holder a:focus{
+    border: none;
+    outline: none;
+}
+.holder a.jp-previous,
+.holder a.jp-next,
+.holder a.jp-first,
+.holder a.jp-last {
+    border: none;
+    position: relative;
+    font-size: 20px;
+    padding: 2px 5px;
+    color: #e95b0b;
+}
+.holder a.jp-last {
+    padding-left: 0;
+    margin-left: 0;
+}
+.holder a.jp-last {
+    transform: rotate(-135deg);
+    font-size: 25px;
+    line-height: 25px;
+    margin-left: -3px;
+    margin-top: 0px;
+    display: none;
+}
+.holder a.jp-next {
+    font-size: 25px;
+    line-height: 25px;
+    margin-left: 7px;
+    vertical-align: -1px;
+}
+.holder a.jp-first:hover,
+.holder a.jp-last:hover,
+.holder a.jp-next:hover,
+.holder a.jp-previous:hover{
+    color: #e95b0b;
+}
+.holder a.jp-disabled,
+.holder a.jp-disabled.jp-first:hover,
+.holder a.jp-disabled.jp-last:hover,
+.holder a.jp-disabled.jp-next:hover,
+.holder a.jp-disabled.jp-previous:hover {
+    opacity: 1;
+    color: #686868;
+}
+.holder a.jp-first {
+    transform: rotate(45deg);
+    font-size: 25px;
+    line-height: 15px;
+    margin-left: 0;
+    margin-top: 6px;
+    display: none;
+}
+.holder a.jp-previous {
+    font-size: 25px;
+    margin-top: 5px;
+    line-height: 15px;
+    margin-right: 7px;
+    vertical-align: -1px;
+}
+.holder a.jp-first:after {
+    position: absolute;
+    top: -5px;
+    right: -2px;
+}
+.holder a.jp-last:after {
+    position: absolute;
+    top: -5px;
+    right: -2px;
+}
+span.page_ellipse{
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin: 2px;
+    float: left;
+    color: #e95b0b;
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 10px;
+}

@@ -1,0 +1,243 @@
+/*--POPUP--*/
+label.custom_form_label {
+    position: relative;
+    float: left;
+    width: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    margin-bottom: 20px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+input.form_input_field {
+    padding: 0.5em 1em 0.5em 0em;
+    border: none;
+    display: block;
+    background-color: transparent;
+    border-bottom: 1px solid #92989e !important;
+    border-color: inherit;
+    font-weight: 400;
+    color: #000;
+    width: 100%;
+    margin-top: 0px;
+    outline: none;
+    font-size: 16px;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+    -webkit-transition: all 0.4s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.4s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 98%, #17445b 4%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 98%, #17445b 4%);
+    background-position: -2000px 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.custom_form_label .input_placeholder {
+    top: 3px;
+    left: 0px;
+    font-size: 16px;
+    position: absolute;
+    pointer-events: none;
+    color: #686868;
+    font-weight: 300;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+input.form_input_field:focus {
+    box-shadow: none;
+    outline: none;
+    background-position: 100% 100%;
+}
+.form_input_field.input-valid ~ .input_placeholder,
+.form_input_field:focus ~ .input_placeholder {
+    top: -15px;
+    font-size: 14px;
+}
+div.webike_popup {
+    position: fixed;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    right: 0;
+    min-height: 100px;
+    top: 10%;
+    z-index: 9999;
+    padding: 40px 80px;
+    width: 95%;
+    left: 0;
+    margin: 0 auto;
+    opacity: 0;
+    max-width: 650px;
+    text-align: center;
+    visibility: hidden;
+    transform: translateY(125px);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+div.webike_popup.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+.webike_popup h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+.webike_popup p {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.social_button_wrapper {
+    text-align: center;
+}
+.social_button_wrapper button {
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid #707070;
+    width: 113px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.social_button_wrapper button:hover {
+    background-color: #686868;
+    color: #FFFFFF;
+}
+.heading_label {
+    position: relative;
+    text-align: center;
+    margin: 40px auto;
+    color: #737373;
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.webike_popup .button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    margin-top: 30px;
+    width: 140px;
+    clear: both;
+    font-size: 16px;
+    padding: 15px;
+}
+.webike_popup .button:before {
+    line-height: 1.7;
+}
+a.forgot_password_button {
+    float: left;
+    color: #f58d90;
+    font-size: 16px;
+    font-weight: 300;
+}
+.register_link_button {
+    float: right;
+    color: #888888;
+    font-weight: 300;
+    font-size: 16px;
+}
+.social_button_wrapper button img {
+    width: 17px;
+    vertical-align: sub;
+    margin-right: 7px;
+}
+.register_link_button span {
+    color: #e9570f;
+    cursor: pointer;
+}
+.register_link_wrapper {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.heading_label:after {
+    position: absolute;
+    content: '';
+    width: 75px;
+    height: 1px;
+    background-color: #ea530f;
+    top: 12px;
+    right: -85px;
+}
+.heading_label:before {
+    position: absolute;
+    content: '';
+    width: 75px;
+    height: 1px;
+    background-color: #ea530f;
+    top: 12px;
+    left: -85px;
+}
+label.custom_form_label.password_label {
+    margin-bottom: 8px;
+}
+label.custom_form_label.register_password_label {
+    width: 47%;
+    margin-right: 3%;
+}
+label.custom_form_label.register_confirm_password_label {
+    width: 47%;
+    margin-left: 3%;
+}
+.popup_close_button {
+    font-size: 20px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    color: #686868;
+    cursor: pointer;
+}
+.popup_close_button:hover {
+    color: #000;
+}
+@media only screen and (max-width: 500px){
+    div.webike_popup {
+        padding: 20px;
+    }
+    .popup_close_button {
+        right: 20px;
+        top: 20px;
+    }
+    .heading_label {
+        margin: 25px auto;
+    }
+    .webike_popup h1 {
+        font-size: 23px;
+    }
+    .register_link_button {
+        float: left;
+        width: 100%;
+        text-align: left;
+        margin-top: 11px;
+    }
+    label.custom_form_label.register_password_label,
+    label.custom_form_label.register_confirm_password_label {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    #register_popup p,
+    #login_popup p {
+        margin: 10px auto;
+    }
+}
+/*END POPUP*/

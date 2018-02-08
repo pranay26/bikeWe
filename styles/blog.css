@@ -1,0 +1,834 @@
+.webike_content_wrapper{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.webike_banner_wrapper {
+	width: 100%;
+	float: left;
+}
+.banner_slider {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.regular{
+	width: 100%;
+	float: left;
+	
+}
+.regular img{
+	width: 100%;
+}
+.banner_slider .slick-prev{
+	right: 25px;
+	left: auto;
+	top: 60%;
+}
+button.slick-prev.slick-arrow {
+	width: 40px;
+	height: 30px; 
+	top: auto;
+	bottom: 10px;
+	right: 200px;
+}
+button.slick-next.slick-arrow{
+	width: 40px;
+	height: 30px;	 
+	top: auto;
+	bottom: 10px;
+	right: 80px;
+}
+.slick-next:before,
+.slick-prev:before{
+	content: "";
+}
+button.slick-next.slick-arrow:before{
+	background-size: cover;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	background-image: url(../images/right-arrow.png) ;
+	background-position: center;
+	top: 8px;
+	left: 8px;
+}
+button.slick-prev.slick-arrow:before{
+	background-size: cover;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	background-image: url(../images/left-arrow.png) ;
+	background-position: center;
+	top: 8px;
+	left: 8px;
+}
+span#pagingInfo {
+	position: absolute;
+	right: 140px;
+	z-index: 99;
+	bottom: 11px;
+	color: #ffffff;
+	font-size: 40px;
+	line-height: 30px;
+	font-weight: 300;
+}
+span#pagingInfo span.count{
+	color: #e9560d;
+	font-weight: 700;
+}
+span.total {
+	font-size: 18px;
+	font-weight: 500;
+}
+span#pagingInfo sub{
+	font-size: 20px;
+	vertical-align: middle;
+	line-height: 10px;
+	font-weight: 500;
+}
+.nav_img img {
+	width: 100%;
+	height:auto;
+	cursor: pointer;
+}
+.nav_img {
+	position: absolute;
+	left: -68%;
+	width: 78%;
+	height: auto;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all 0.3s;
+}
+.nav_img.right_img{
+	left: -80%;
+	width: 87%;
+
+}
+.slider_section {
+	position: relative;
+}
+.banner_details {
+	width: 470px;
+	float: left;
+	position: absolute;
+	left:20%;
+	color: #fff;
+	bottom: 50px;
+	padding: 20px ;
+
+}
+.banner_details h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	margin: 0;
+	padding:4px 0;
+	line-height: 55px;
+	color: #fff;
+	font-weight: 700;
+}
+.banner_details p {
+	font-family: 'Oswald', 'Archivo Narrow', sans-serif;
+	font-size: 13px;
+	margin: 0;
+	padding:7px 0 20px;
+	line-height: 18px;
+	width: 90%;
+	color: #fff;
+	font-weight: 200;
+}
+.button {
+	width: 230px;
+	float: left;
+	padding: 18px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Oswald', sans-serif;
+	background: #ccc;
+	background: linear-gradient(to right, #ed1d23 , #e9540d);
+	color: #fff;
+}
+
+
+.top_brands {
+	width: 100%;
+	float: left;
+	padding: 30PX 65PX 0px;
+	position: relative;
+	background-color: #fff;
+}
+ul.brands {
+	width: 100%;
+	float: left;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+.top_brands .blog_title{
+	margin: 0 15px;
+}
+
+ul.brands .brand_list {
+	font-size: 28px;
+	color: #6b6b6b;
+	font-family: 'Oswald', sans-serif;
+	width: auto;
+	font-weight: 900;
+	padding: 5px 30px;
+	margin: 0 auto;
+	display: inline-block;
+	cursor: pointer;
+}
+.brand_sliders {
+	width: 100%;
+	float: left;
+}
+.slick-initialized .slick-slide {
+	outline: none;
+}
+.model_slider .slider_section {
+	padding: 15px;
+}
+.slick-dots li.slick-active button:before {
+	background-color: #ed1c24;
+}
+.slick-dots li button:before {
+	content: "";
+	background-color: #686868;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	opacity: 1;
+}
+img{
+	max-width: 100%;	
+}
+
+.view_btn {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 30px;    
+}
+.view_btn .button {
+	float: none;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.accessories {
+	width: 100%;
+	float: left;
+	padding: 30px 40px 20px;
+	background-color: #f5f5f5;
+}
+.accessories_part {
+	width: 50%;
+	float: left;   
+
+}
+.accessories_part.accessories_left{
+	padding: 0 40px;
+}
+.accessories_right.accessories_part h1{
+	padding: 20px 40px 30px;
+}
+
+.accessories_right.accessories_part .event_slider {
+	padding: 0px 40px 0;
+	border-left:1px solid #686868;
+	position: relative;
+
+}
+.slide_content {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	padding: 50px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+.event_slider .slider_section img{
+	width: 100%;
+}
+.slide_content h3{
+	color: #ffffff;
+	font-size: 20px;
+	margin: 0;
+	font-weight: 600;
+}
+
+.event_slider button.slick-next.slick-arrow{
+	right: 80px;
+}
+.event_slider  button.slick-prev.slick-arrow{
+	left: 80px;
+}
+
+.event_slider button.slick-arrow{
+	background-color: #ffffff;
+	border-radius: 50%;
+	padding: 5px;
+	height: 40px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #e9560d;
+}
+.event_slider button.slick-arrow span{
+	font-size: 22px;
+}
+.event_slider button.slick-arrow:before{
+	width: 0;
+	height: 0;
+	background-image:none;
+}
+
+h1.section_header {
+	font-size: 28px;
+	margin: 0;
+	padding: 20px 0 30px;
+}
+.newsletter_header .accessories_part.accessories_left{
+	padding: 0;
+}
+
+ul.accessories_header{
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding-right: 40px;
+	background-color: #ffffff;
+}
+
+ul.accessories_header li{
+	font-size: 28px;
+	font-weight: 700;
+	float: left;
+	padding: 20px 30px 30px;
+	cursor: pointer;
+}
+ul.accessories_header li.active{
+	background-color: #f5f5f5;
+}
+li.moto_list{
+	display: none;
+	float: left;
+}
+li#moto_review{
+	display: block;
+}
+.parts {
+	width: 100%;
+	float: left;
+
+}
+.accessories_section {
+	width: 100%;
+	float: left;
+	padding: 20px 0;
+	border-bottom: 1px solid #b2b1b1;
+}
+.accessories_section:last-child{
+	border: none;
+}
+.parts_img {
+	width: 25%;
+	float: left;
+
+}
+.parts_content{
+	width: 75%;
+	float: left;
+	padding-left: 20px;
+}
+
+.parts_content h3 {
+	margin: 0;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.parts_content p {
+	margin: 0;
+	font-size: 16px;
+	line-height: 22px;
+	color: #686868;
+	height: 66px;
+	overflow: hidden;
+	font-family: 'Archivo Narrow', sans-serif;
+	/*display: -webkit-box;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 3;*/
+}
+.read_more{
+	font-size: 16px;
+	font-weight: 700;
+	color: #151515;
+	width: auto;
+	float: right;
+	padding-top: 11px;
+}
+.read_more a{
+	color: #151515;
+}
+.newsletter .view_btn{
+	background-color: #f5f5f5;
+	padding-bottom: 40px;
+}
+.blog_cart {
+	width: 100%;
+	float: left;
+	border: 1px solid #a2a4a6;
+}
+.top_brands h1.blog_title span{
+	background-color: #ffffff;
+}
+.accessory {
+	width: 100%;
+	float: left;
+	background-color: #f5f5f5;
+}
+.newsletter{
+	width: 100%;
+	float: left;
+	padding:10px 0px 0px;
+	background-color: #ffffff;
+}
+ul.moto_header {
+	width: 100%;
+	float: left;
+	background-color: #f5f5f5;
+	padding: 0 80px 0 40px;
+	margin-top: 30px;
+}
+.newsletter .accessories_right.accessories_part h1
+{
+	padding: 20px 40px 30px 80px;
+	background-color: #ffffff;	
+}
+.newsletter .accessories_part.accessories_left{
+	padding: 0;
+}
+.newsletter_section {
+	width: 100%;
+	float: left;
+	padding: 0 40px 0 80px;
+	background-color: #f5f5f5;
+	border-right: 1px solid #686868;
+	margin-top: 30px
+}
+.news_content h3 {
+	margin: 0;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+.news_content {
+	width: 100%;
+	float: left;
+	padding: 20px 0;
+	border-bottom: 1px solid #b2b1b1;
+}
+.news_content:last-child{
+	border: none;
+}
+
+.news_content p {
+	margin: 0;
+	font-size: 16px;
+	line-height: 22px;
+	color: #686868;
+	font-family: 'Archivo Narrow', sans-serif;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 3;
+}
+.reviews {
+	width: 100%;
+	float: left;
+	padding-top: 7px;
+}
+.reviews h4{
+	width: auto;
+	float: left;
+	margin: 0;
+	padding-top: 12px;
+	color: #707070;
+	font-size: 16px;
+	font-weight: 400;
+}
+.newsletter_header{
+	width: 100%;
+	float: left;
+	padding: 40px 40px 0;
+	background-color: #ffffff;
+}
+
+.motorcycle{
+	width: 100%;
+	float: left;
+	padding:30px 60px;
+	background-color: #ffffff;
+}
+.motorcycle h1.blog_title{
+	margin:  0 20px;
+}
+
+.motorcycle h1.blog_title span{
+	background-color: #ffffff;
+
+}
+
+
+
+/*----------Video Section-----------*/
+
+.playing_video {
+	width: 100%;
+	float: left;
+	padding: 25px 40px ;
+	background-color: #f5f5f5;
+	box-shadow: 0px 4px 15px 4px rgba(0,0,0,0.1);
+}
+.prev_video{
+	width: 33%;
+	float: left;
+	text-align: left;
+	cursor: pointer;
+	color: #969595;
+	color: #686868;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 22px;
+	text-align: left;
+}
+p.close {
+	width: 33%;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	font-size: 28px;
+	line-height: 20px;
+	font-weight: 300;
+	font-family: sans-serif;
+	color: #686868;
+}
+p.next_video {
+	width: 33%;
+	float: left;
+	text-align: left;
+	cursor: pointer;
+	color: #969595;
+	color: #686868;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 22px;
+	text-align: right;
+}
+.embed-container { 
+	overflow: hidden; 
+	max-width: 100%; 
+	height: auto; 
+	float: left;
+} 
+#videoclip{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+}
+#play_video_two{
+	display: none;
+}
+#play_video_three{
+	display: none;
+}
+#play_video_four{
+	display: none;
+}
+.video_wrapper{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.videoContainer{
+	width: 100% !important;
+	height: auto;
+	background-color: #f5f5f5;
+	box-shadow: 0px 4px 15px 4px rgba(0,0,0,0.1);
+}
+#init{
+	background: none !important;
+}
+video#myVideo{
+	width: 100%;
+	height: auto;
+}
+.close_video_meu{
+	display: none;
+}
+.mobile_video_menu{
+	display: none;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+.video_play {
+	width: 100%;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	padding: 20px;
+	z-index: 9999;
+	height: 665px;
+	display: none;
+}
+.videos {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.video_img {
+	width: 50%;
+	float: left;
+	position: relative;
+	padding: 20px;
+}
+.video_img img.video_img_src {
+	position: relative;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+}
+
+
+.video_img img.play_img {
+	position: absolute;
+	width: auto;
+	top: 50%;
+	bottom: 0;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	cursor: pointer;
+}
+
+
+/*----------End Video Section----------*/
+
+
+
+@media screen and (max-width:1300px){
+	ul.accessories_header li{
+		padding: 20px 20px 30px;
+	}
+}
+@media screen and (max-width:1200px){
+	ul.accessories_header li{
+		padding: 10px 10px 15px;
+	}
+	.newsletter .accessories_right.accessories_part h1{
+		padding: 10px 40px 15px 80px
+	}
+}
+@media screen and (max-width:1000px){
+	.top_brands{
+		padding: 30PX 35PX 0px
+	}
+	.accessories{
+		padding: 15px 10px;
+	}
+	.newsletter_header{
+		padding: 30px 10px 0;
+	}
+	.newsletter{
+		padding: 10px 0px 20px;
+	}
+	.motorcycle{
+		padding: 30px 30px;
+	}
+	.accessories_part{
+		width: 100%;
+		padding-bottom: 0px;
+	}
+	.accessories_right.accessories_part .event_slider{
+		border: none;
+	}
+	.newsletter .accessories_right.accessories_part h1{
+		padding: 20px 50px 30px;
+	}
+	ul.moto_header,
+	ul.accessories_header,
+	.newsletter_section{
+		padding:0 50px;
+		border: none;
+	}
+	.banner_details h1{
+		font-size: 28px;		
+	}
+	.banner_details .button{
+		width: 170px;
+		padding: 14px;
+	}
+	.banner_details{
+		bottom: 20px;
+	}
+	ul.accessories_header{
+		padding: 30px 20px 0;
+	}
+}
+
+
+@media screen and (max-width:750px){
+	.top_brands{
+		padding: 30PX 15PX 0px
+	}
+	.accessories{
+		padding: 15px 0px;
+	}
+	.newsletter_header{
+		padding: 30px 10px 0;
+	}
+	.newsletter{
+		padding: 0px 0px 0px;
+	}
+	.motorcycle{
+		padding: 30px 20px;
+	}
+	.accessories_part{
+		width: 100%;
+		 
+	}
+	.accessories_right.accessories_part .event_slider{
+		border: none;
+		padding: 0px 30px 0;
+	}
+	.newsletter .accessories_right.accessories_part h1{
+		padding: 20px 30px 20px;
+	}
+	ul.moto_header,
+	ul.accessories_header{
+		padding:30px 30px 0;
+		border: none;
+		margin: 0;
+	}
+	.newsletter_section{
+		padding:0 30px;
+		border: none;
+		margin: 0;
+	}
+	.accessories_part.accessories_left{
+		padding: 0 30px;
+	}
+	.accessories_right.accessories_part h1{
+		padding: 20px 30px 30px
+	}
+	.video_play,
+	.video_img{
+		padding: 10px;
+	}
+	.blog_title{
+		font-size: 25px;
+	}
+	ul.accessories_header li,
+	h1.section_header{
+		font-size: 22px;
+	}
+	.video_img img.play_img{
+		width: 50px;
+	}
+	.read_more,
+	.news_content h3,
+	.parts_content h3{
+		font-size: 15px;
+	}
+	.slide_content{
+		padding: 20px;
+	}
+	.slide_content h3{
+		font-size: 18px;
+	}
+	.event_slider button.slick-next.slick-arrow{
+		right: 40px;
+	}
+	.event_slider button.slick-prev.slick-arrow {
+		left: 40px;
+	}
+	.videoContainer{
+		min-height: 270px;
+	}
+	.banner_details{
+		padding: 0;
+	}
+	.model_slider .slider_section{
+		padding: 10px;
+	}
+	.brand_sliders{
+		padding: 0 5px;
+	}
+	.motorcycle h1.blog_title{
+		margin: 0 10px;
+	}
+}
+@media screen and (max-width:600px){
+	.banner_details{
+		display: none;
+	}
+	span#pagingInfo{
+		right: 55px;
+		font-size: 30px;
+		bottom: 16px;
+	}
+	span.total{
+		font-size: 15px;
+	}
+	button.slick-next.slick-arrow{
+		right: 12px;
+	}
+	button.slick-prev.slick-arrow{
+		right: 90px;
+	}
+}
+@media screen and (max-width:450px){
+	.slick-dots li{
+		width: 15px;
+	}
+	h1.blog_title span{
+		padding: 0 15px 0 15px;
+	}
+	.video_img,
+	.parts_img,
+	.parts_content{
+		width: 100%;
+	}
+	.parts_content{
+		padding: 10px 0;
+	}
+	.slick-dots li button{
+		width: 10px;
+		height: 10px;
+		padding: 0;
+	}
+	.slick-dots li button:before{
+		width: 10px;
+		height: 10px;
+	}
+	p.close{
+		font-size: 22px;
+	}
+	.videoContainer{
+		min-height: 200px;
+	}
+}

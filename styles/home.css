@@ -1,0 +1,1147 @@
+.webike_content_wrapper{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.webike_banner_wrapper {
+	width: 100%;
+	float: left;
+}
+.banner_slider {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.regular{
+	width: 100%;
+	float: left;
+	
+}
+.regular img{
+	width: 100%;
+}
+.banner_slider .slick-prev{
+	right: 25px;
+	left: auto;
+	top: 60%;
+}
+button.slick-prev.slick-arrow {
+	width: 40px;
+	height: 40px;
+	background: linear-gradient(to right, #ed1d23 , #e9540d);
+	padding: 5px;
+	border-radius: 50%;
+	top: auto;
+	bottom: 75px;
+	right: 50px;
+}
+button.slick-next.slick-arrow{
+	width: 40px;
+	height: 40px;
+	background: linear-gradient(to right, #ed1d23 , #e9540d);
+	padding: 5px;
+	border-radius: 50%;
+	top: auto;
+	bottom: 130px;
+	right: 50px;
+}
+.slick-next:before,
+.slick-prev:before{
+	content: "";
+}
+button.slick-next.slick-arrow:before{
+	background-size: cover;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	background-image: url(../images/right-arrow.png) ;
+	background-position: center;
+	top: 8px;
+	left: 8px;
+}
+button.slick-prev.slick-arrow:before{
+	background-size: cover;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	background-image: url(../images/left-arrow.png) ;
+	background-position: center;
+	top: 8px;
+	left: 8px;
+}
+.nav_img img {
+	width: 100%;
+	height:auto;
+	cursor: pointer;
+}
+.nav_img {
+	position: absolute;
+	left: -68%;
+	width: 78%;
+	height: auto;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all 0.3s;
+}
+.nav_img.right_img{
+	left: -80%;
+	width: 87%;
+
+}
+.slider_section {
+	position: relative;
+}
+.banner_details {
+	width: 45%;
+	float: left;
+	position: absolute;
+	right: 0;
+	color: #fff;
+	bottom: 50px;
+	padding: 20px 100px 20px 40px;
+	border-bottom: 5px solid #e95b0b;
+	border-top: 5px solid #e95b0b;
+	border-left: 5px solid #e95b0b;
+}
+.banner_details h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 34px;
+	margin: 0;
+	padding:4px 0;
+	line-height: 35px;
+	color: #fff;
+	font-weight: 700;
+}
+.banner_details p {
+	font-family: 'Oswald', 'Archivo Narrow', sans-serif;
+	font-size: 13px;
+	margin: 0;
+	padding:7px 0 20px;
+	line-height: 18px;
+	width: 90%;
+	color: #fff;
+	font-weight: 200;
+}
+.button {
+	width: 230px;
+	float: left;
+	padding: 18px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Oswald', sans-serif;
+	background: #ccc;
+	background: linear-gradient(to right, #ed1d23 , #e9540d);
+	color: #fff;
+}
+
+.shop_by_categories {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding: 25px 80px 25px 80px;
+	background-color: #fff;
+}
+
+.categories {
+	width: 100%;
+	float: left;
+}
+ul.categories_images{
+	width: 100%;
+	float: left;
+	list-style: none;
+	padding: 0;
+	position: relative;
+}
+li.list {
+	width: auto;
+	float: left;
+	padding: 7px;
+	position: relative;
+}
+li.list img{
+	width: 100%;
+}
+li.list:nth-child(1){
+	width: 40%;
+}
+li.list:nth-child(2),
+li.list:nth-child(3),
+li.list:nth-child(4),
+li.list:nth-child(7){
+	width: 20%;
+}
+li.list:nth-child(5){
+	width: 40%;
+	position: absolute;
+	left: 0px;
+	bottom:3px;
+}
+li.list:nth-child(6){
+	width: 40%;
+}
+.image_heading {
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+	color: #fff;
+	font-size: 26px;
+	line-height: 30px;
+	font-weight: 900;
+}
+
+.top_offers {
+	width: 100%;
+	float: left;
+}
+.top_offers {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding: 30px 80px 0;
+	background-color: #f5f5f5;
+}
+.top_offers_slider {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-bottom: 0px;
+}
+.top_offers h1.section_header{
+	padding-bottom: 30px;
+}
+h1.section_header{
+	margin: 0;
+	text-align: center;
+	font-size: 42px;
+	line-height: 42px;
+	color: #151515;
+	padding-bottom: 20px;
+	font-weight: 900;
+	font-family: 'Oswald', sans-serif;
+}
+.grid-pages.grid-pages--loaded{
+	width: 100%;
+	float: left;
+}
+.grid__button img{
+	width: 40px;
+	cursor: pointer;
+}
+
+
+.view_btn{
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 30px;
+	background-color: #f5f5f5;
+}
+.view_btn .button{
+	float: none;
+	display: block;
+	margin: 0 auto;
+	padding: 18px;
+	width: 270px;
+}
+.shop_by_manufacturer{
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	padding-top: 10px;
+}
+.bike_image{
+	width: 100%;
+	float: left;
+}
+.shop_by_manufacturer .bike_image img{
+
+}
+.top_brands {
+	width: 100%;
+	float: left;
+	padding: 10PX 80PX 0px;
+	position: relative;
+	background-color: #fff;
+}
+ul.brands{
+	width: 100%;
+	float: left;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+ul.brands .brand_list{
+	font-size: 28px;
+	color: #6b6b6b;
+	font-family: 'Oswald', sans-serif;
+	width: auto;
+	font-weight: 900;
+	padding:5px 30px;
+	margin: 0 auto;
+	display: inline-block;
+	cursor: pointer;
+}
+ul.brands .brand_list.active{
+	color: #151515;
+}
+.brand_sliders {
+	width: 100%;
+	float: left;
+}
+img{
+	max-width: 100%;
+}
+.model_slider  .slider_section{
+	padding: 15px;
+}
+.slick-dots li button{
+	background-color: transparent;
+	width: 15px;
+}
+.slick-dots li button:before{
+	content: "";
+	background-color: #686868;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	opacity: 1;
+}
+.slick-dots li.slick-active button:before{
+	background-color: #ed1c24;
+}
+
+.recent_view_brands{
+	width: 100%;
+	float: left;
+	padding: 15px 0PX 30px;
+	position: relative;
+	background-color: #fff;
+}
+.recent_views{
+	font-size: 28px;
+	color: #6b6b6b;
+	font-family: 'Oswald', sans-serif;
+	width: auto;
+	font-weight: 900;
+	padding: 0px 30px 20px;
+	margin: 0 auto;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.recent_views.active{
+	color: #151515
+}
+.recent_slider .slider_section {
+	padding: 15px 15px;
+}
+.slick-initialized .slick-slide{
+	outline: none;
+}
+/*.cart_section {
+	width: 100%;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 0px;
+}
+
+.cart_btn {
+	width: 100%;
+	float: right;
+	text-align: right;
+	padding:20px;
+	padding-bottom: 10px;
+}
+span.cart_icon {
+	padding: 6px;
+	border-radius: 50%;
+	background: #ccc;
+	color: #ffffff;
+	font-size: 20px;
+	margin-left: 10px;
+}
+span.cart_icon:hover{
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(45, #ED1C24), color-stop(100, #E95B0B));
+	background-image: -webkit-linear-gradient(left, #ED1C24 45%, #E95B0B 100%);
+	background-image: linear-gradient(to right, #ED1C24 45%, #E95B0B 100%);
+}
+span.cart_icon.active{
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(45, #ED1C24), color-stop(100, #E95B0B));
+	background-image: -webkit-linear-gradient(left, #ED1C24 45%, #E95B0B 100%);
+	background-image: linear-gradient(to right, #ED1C24 45%, #E95B0B 100%);
+}
+.product_details {
+	float: left;
+	width: 100%;
+	padding: 10px 15px;
+}
+.product_desc {
+	width: 75%;
+	float: left;
+}
+
+.product_desc h2 {
+	color: #151515;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 700;
+}
+.product_desc h3 {
+	color: #151515;
+	margin: 0;
+	font-size: 13px;
+	color: #ed1d25;
+	font-weight: 900;
+}
+.product_rating {
+	width: 35px;
+	float: right;
+	text-align: center;
+	position: relative;
+}
+.product_rating span {
+	width: 100%;
+	float: left;
+	left: 0;
+	top: 2px;
+	text-align: center;
+	font-size: 13px;
+	position: absolute;
+}
+.product_rating p{
+	font-size: 12px;
+	margin:0;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+.cart_section img{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+.buy_now {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 12px;
+	color: #fff;
+	font-size: 15px;
+	background: #e95b0b;
+	display: none;
+	position: absolute;
+	box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.2);
+}
+.slide_cart {
+	width: 100%;
+	float: left;
+	height: auto;
+	padding-bottom: 50px;
+	position: relative;
+}*/
+.model_slider button.slick-prev.slick-arrow,
+.model_slider  button.slick-next.slick-arrow,
+.recent_slider button.slick-next.slick-arrow,
+.recent_slider button.slick-prev.slick-arrow{
+	top:10%;
+	visibility: hidden;
+}
+
+.search-items {
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+	padding: 30px 50px 20px;
+
+}
+.prod_dropdown {
+	width: 32%;
+	display: inline-block;
+	margin-right: 1%;
+	position: relative;
+}
+
+.prod_dropdown  .dropdown_search {
+	width: 100%;
+	float: left;
+	border: 1px #686868 solid;
+	padding: 14px;
+	margin-right: 3%;
+	cursor: pointer;
+	background: none;
+	display: block;
+	box-shadow: none;
+	position: relative;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #ffffff;
+	border-left:15px solid #686868;
+}
+.dropdown_search p {
+	color: #151515;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: left;
+	width: 100%;
+	margin: 0;
+	float: left;
+	padding: 0 20px;
+	font-family: 'Oswald', sans-serif;
+}
+.dropdown_search span.icon-Dropdown_Right {
+	/* width: 10%; */
+	float: left;
+	font-size: 19px;
+	font-weight: 200;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+	color: #686868;
+}
+.manufacturer {
+	width: 100%;
+	float: left;
+	padding: 0 80px 45px;
+	margin-top: -135px;
+}
+.search_products {
+	width: 100%;
+	border-top: 20px solid #e95b0b;
+	margin: 0 0%;
+	float: left;
+	padding: 20px;
+	box-shadow: 0px 4px 15px 4px rgba(0,0,0,0.1);
+	background-color: #ffffff;
+}
+.list_dropdown {
+	width: 99%;
+	float: left;
+	box-shadow: 0px 0 2px 1px rgba(0,0,0,0.2);
+	display: none;
+	position: absolute;
+	top: 100%;
+	background: #ffffff;
+	z-index: 9;
+	margin: auto;
+	right: 0;
+	left: 0;
+}
+.manufacturer h1.section_header{
+	color: #ffffff;
+	padding-bottom: 30px;
+}
+.list_dropdown .drop_list {
+	padding: 10px 0px 10px 20px;
+	cursor: pointer;
+	width: 100%;
+	float: left;
+	font-weight: 300;
+	font-size: 14px;
+	font-family:'Archivo Narrow', sans-serif;;
+}
+
+.dropdown_search.active_border {
+	border: 1px solid #ed1c24;
+	border-left: 15px solid #ed1c24;
+}
+.dropdown_search.active_border span.icon-Dropdown_Right{
+	color: #ed1c24;
+}
+.search-prod button {
+	background: #bebdbd;
+	color: #ffffff;
+	font-size: 18px;
+	cursor: pointer;
+	font-weight: 800;
+	line-height: 21px;
+	font-family: Open Sans;
+	text-align: center;
+	outline: none;
+	border: none;
+	width: 194px;
+	float: right;
+	padding: 18px 5% 18px 5%;
+}
+.search-items .view_btn{
+	background-color: #fff;
+	padding:35px 20px 0;
+}
+.ranking {
+	width: 100%;
+	float: left;
+	padding: 50px 0px 30px 80px;
+	background-color: #ffffff;
+	position: relative;
+}
+.motor_racer {
+	width: 65%;
+	float: left;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 80px;
+	z-index: 99;
+}
+.racer_img {
+	width: 30%;
+	float: left;
+	padding-right: 30px;
+	position: relative;
+}
+span.racer_desc {
+	font-size: 18px;
+	position: absolute;
+	bottom: 15px;
+	color: #fff;
+	/* padding: 10px; */
+	font-weight: 700;
+	left: 15px;
+}
+.motogp_ranking {
+	width: 45%;
+	float: right;
+	background: #e95b0b;
+	text-align: right;
+	padding:0 80px;
+	padding-right: 40px;
+	position: relative;
+}
+.motogp {
+	width: 30%;
+	float: left;
+}
+.motogp {
+	width: 37%;
+	float: left;
+	font-size: 30px;
+	color: #fff;
+	font-weight: 900;
+	line-height: 35px;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	transform: translateY(-50%);
+}
+.ranking_slider {
+	position: relative;
+	width: 55%;
+	float: right;
+	padding-left: 20px;
+}
+span.rank_no {
+	position: absolute;
+	top: 85px;
+	right: 4px;
+	z-index: 99;
+	background: #fff;
+	border-radius: 50%;
+	padding: 2px 22px;
+	font-size: 37px;
+	color: #e95b0b;
+	font-weight: 900;
+
+}
+.slide_section{
+	width: 100%;
+	float: left;
+	padding: 105px 30px 45px 0;
+	position: relative;
+}
+.slide_section img{
+	float: right;
+}
+.rank_details {
+	float: right;
+	text-align: center;
+	width: 100%;
+}
+.rank_details h1{
+	font-size: 22px;
+	font-family: 'Oswald', sans-serif;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+	line-height: 28px;
+}
+
+
+.ranking_slider button.slick-prev.slick-arrow{
+	background:transparent;    
+	top: 90px;     
+	right: 50px;
+	left: -60px;
+	border-radius: 0;
+}
+.ranking_slider button.slick-next.slick-arrow{
+	background:transparent;
+	bottom: 65px;
+	right: 50px;
+	left: -60px;
+	border-radius: 0;
+}
+
+
+.ranking_slider button.slick-next.slick-arrow:before{
+	background-image: url(../images/download.png);
+	widows: 35PX;
+	height: 35PX;
+	left: 0;
+	top: 0;
+}
+.ranking_slider button.slick-prev.slick-arrow:before{
+	background-image: url(../images/up-arrow.png);
+	width: 35PX;
+	height: 35PX;
+	left: 0;
+	top: 0;
+}
+.ranking .view_btn {
+	background-color: transparent;
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	width: 65%;
+}
+.ranking .view_btn a.button {
+	width: 30%;
+	min-width: 200px;
+}
+.blog_news {
+	width: 100%;
+	float: left;
+	background: #fff;
+	padding: 0px 80px;
+}
+.blog_news h1.section_header {
+	font-size: 85px;
+	font-weight: 900;
+	font-family: 'Oswald';
+	padding: 0;
+	line-height: 85px;
+}
+.blog_slider {
+	width: 100%;
+	float: left;
+	margin-top: -18px;
+}
+.blog_news .slick-slide img{
+
+}
+
+.blog_news  button.slick-arrow{
+	top: 50%;
+	width: 60px;
+	height: 60px;
+	transform: translateY(-50%);
+	background: transparent;
+}
+.blog_news button.slick-next.slick-arrow
+{
+	right: 90px;
+	border-radius: 0;
+}
+.blog_news  button.slick-prev.slick-arrow{
+	left: 80px;
+}
+.blog_news button.slick-arrow:before{
+	width: 60px;
+	height: 60px;
+	left: 1px;
+	right: 0;
+}
+.segment-teaser a{
+	text-transform: uppercase;
+}
+
+
+@media screen and (max-width:1200px){
+	.prod_dropdown{
+		width: 32%;
+	}
+	.search-items{
+
+	}
+	.search_products{
+		padding: 0;
+	}
+	
+	.image_heading{
+		font-size: 23px;
+	}
+	.recent_slider .slider_section{
+		padding: 15px 15px 20px;
+	}
+	.banner_details{
+		bottom: 20px;
+		padding: 4px 100px 20px 25px;
+	}
+	.banner_details h1{
+		font-size: 25px;
+		line-height: 25px;
+	}
+}
+@media screen and (max-width:1000px){
+	.prod_dropdown{
+		width: 31.5%;
+	}
+	 
+	.banner_details{
+		padding: 25px 70px 20px 30px;
+	}
+	.banner_details p{
+		padding: 5px 0 15px;
+	}
+	button.slick-prev.slick-arrow{
+		bottom: 80px;
+	}
+	.grid__button img{
+		width: 35px;
+	}
+	.shop_by_categories{
+		padding: 20px 50px 20px  ;
+	}
+	.top_offers{
+		padding: 30px 50px 0;
+	}
+	.manufacturer{
+		padding: 30px 50px;
+	}
+	.top_brands{
+		padding: 10PX 50PX 0px;
+	}
+	
+	.motor_racer{
+		left: 50px;
+	}
+	.image_heading{
+		font-size: 20px;
+	}
+	.banner_details {
+		bottom: 20px;
+		padding: 4px 61px 20px 25px;
+	}
+}
+
+@media screen and (max-width:900px){
+	.grid__button img{
+		width: 25px;
+	}
+	.grid-nav{
+		padding: 0 5px;
+	}
+	.shop_by_categories{
+		padding: 20px 30px 20px 30px;
+	}
+	.top_offers{
+		padding: 30px 30px 0;
+	}
+	.manufacturer{
+		padding: 30px 30px;
+	}
+	.top_brands{
+		padding: 10PX 30PX 0px;
+	}
+	.ranking{
+		padding: 50px 0px 50px 30px;
+	}
+	.motor_racer{
+		left: 30px;
+	}
+	.motogp_ranking{
+		width: 50%;
+	}
+	.image_heading{
+		font-size:18px;
+	}
+	.motogp{
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.ranking_slider{
+		width: 65%;
+	}
+	.motogp_ranking{
+		padding: 0 10px 0 50px;
+	}
+	.race_img2{
+		display: none;
+	}
+	.racer_img{
+		width: 43%;
+	}
+	/**/
+	.shop_by_categories li.list {
+		width: 100%;
+	}
+	.shop_by_categories .slick-next, 
+	.shop_by_categories .slick-prev {
+		display: none !important;
+	}
+	.shop_by_categories li.list img {
+		height: 275px;
+	}
+	.shop_by_categories .slick-initialized .slick-slide {
+		outline: none;
+		position: relative !important;
+		left: auto !important;
+		bottom: auto !important;
+	}
+	.grid-pages.grid-pages--loaded {
+		display: none;
+	}
+	.top_offers_slider .nav_button {
+		display: none;
+	}
+	.top_offers_slider .grid__item {
+		opacity: 1;
+		width: 46%;
+		margin: 2%;
+	}
+	.grid__img img {
+		height: 350px;
+		width: 100%;
+	}
+	.top_offers_slider .grid__item:nth-child(n+6) {  
+		display: none
+	}
+	h1.section_header {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.banner_details{
+		width: 53%;
+	}
+	.banner_slider .button{
+		padding: 13px;
+		width: 200px;
+	}
+	.banner_details h1 {
+		font-size: 18px;
+		line-height: 18px;
+	}
+	.banner_details p{
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.grid__img {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width:780px){
+
+	.race_img1{
+		display: none;
+	}
+	.racer_img {
+		width: 95%;
+	}
+	.motor_racer{
+		width: 50%;
+		top:calc(50% - 50px);
+		left: 8%;
+	}
+	.motogp_ranking{
+		width: 62%;
+	}
+	.motogp{
+		padding-right: 10px;
+	}
+	.blog_news button.slick-prev.slick-arrow{
+		left: 20px;
+	}
+	.blog_news button.slick-next.slick-arrow{
+		right: 20px;
+	}
+	.banner_details{
+		display: none;
+	}
+	.banner_slider button.slick-arrow{
+		display: none !important;
+	}
+	ul.brands .brand_list{
+		font-size: 22px;
+	}
+	.recent_views{
+		font-size: 22px;
+	}
+	.blog_news{
+		padding:0px 0px; 
+	}
+	.blog_news h1.section_header{
+		font-size: 60px;
+		line-height: 60px;
+	}
+	.blog_slider{
+		margin-top: -10px;
+	}
+	.ranking{
+		padding-bottom: 155px;
+	}
+	.prod_dropdown{
+		width: 100%;
+		padding: 5px;
+	}
+	.view_btn .button{
+		width: 180px;
+	}
+	.search-items .view_btn{
+		padding: 15px 20px 0;  
+	}
+	.slick-dots li button{
+		width: 10px;
+	}
+	.slick-dots li button:before{
+		width: 10px;
+		height: 10px;
+	}
+	.slick-dots li, .slick-dots li button{
+		width: 10px;
+		height: 10px;
+	}
+	.search_products{
+		border: 0;
+	}
+	.segment-teaser .segment-teaser__content h4{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.blog_news h1.section_header{
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.ranking .view_btn{
+		width: 100%;
+	}
+	.ranking .view_btn a.button{
+		width: 230px;
+	}
+	.recent_view_brands .slick-dots{
+		bottom: 0;
+	}
+	.recent_view_brands{
+		padding: 25px 0 0;
+	}
+	.search-items
+	{
+		padding: 30px 25px;
+	}
+}
+
+
+@media screen and (max-width:600px){
+
+	.racer_img {
+		width: 95%;
+	}
+	.motor_racer{
+		width:43%; 
+		top: 40%;
+	}
+	.motogp_ranking{
+		width: 62%;
+	}
+	.motogp_ranking{
+		padding: 0 10px 0 30px;
+	}
+	.slide_section{
+		padding: 55px 30px 40px 0;
+	}
+	span.rank_no{
+		top: 35px;
+		right: 18px;
+		z-index: 99;
+		font-size: 20px;
+		padding: 2px 12px;
+	}
+	.motogp{
+		font-size: 14px;
+		padding-right: 10px;
+	}
+	.ranking_slider button.slick-prev.slick-arrow
+	{
+		top: 50px;
+	}
+	.ranking_slider button.slick-next.slick-arrow{
+		bottom: 12px;
+	}
+	.rank_details h1
+	{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	span.racer_desc{
+		font-size: 16px;
+	}
+	ul.brands .brand_list{
+		font-size: 18px;
+		padding: 0 10px;
+	}
+	.recent_views{
+		font-size: 18px;
+		padding: 0 10px;
+	}
+	.ranking_slider button.slick-next.slick-arrow:before,
+	.ranking_slider button.slick-prev.slick-arrow:before{
+		width: 25px;
+		height: 25px;
+	}
+	.blog_news button.slick-arrow:before {
+		width: 35px;
+		height: 35px;
+	}
+	.blog_news button.slick-next.slick-arrow{
+		right: 0;
+	}
+	.prod_dropdown .dropdown_search{
+		padding: 8px;
+	}
+	h1.section_header {
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.manufacturer{
+		margin-top:-110px;
+	}
+	.blog_slider{
+		margin-top: -6px;
+	}
+	.grid__img img{
+		height: 180px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:420px){
+	.recent_view_brands{
+		padding: 25px 30px;
+	}
+	.model_slider .slick-dots{
+		bottom: -25px;
+	}
+	.motor_racer{
+		width: 43%;
+	}
+	.racer_img{
+		padding-right: 10px;
+	}
+	.manufacturer{
+		margin-top: -100px;
+
+	}
+	h1.section_header{
+		font-size: 25px;
+		line-height: 25px;
+	}
+	.manufacturer h1.section_header{
+		font-size: 25px;
+		line-height: 25px;
+		padding-bottom: 20px;
+	}
+}
