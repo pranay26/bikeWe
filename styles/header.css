@@ -4,6 +4,7 @@
     width: 100%;
     float: left;
     position: relative;
+    display: block;
 }
 .header_menu_wrapper {
     width: 100%;
